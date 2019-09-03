@@ -197,6 +197,17 @@ a{
   margin-left: 20px;
 }
 
+.title_section_line_head1::before{
+  content: '01';
+  font-size: 15px;
+  color: black;
+}
+
+.title_section_line_head1::after{
+  content: '';
+  border-bottom: 4px solid #5e42b0;
+}
+
 
   
 

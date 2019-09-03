@@ -1,0 +1,27 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+body{
+    min-width: 320px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+

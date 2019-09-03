@@ -25,6 +25,10 @@ ul {
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .header {
     background-image: url("../img/football_767.jpg");
     background-repeat: no-repeat;
@@ -32,18 +36,120 @@ ul {
     background-size: cover;
     background-color: #000000;
     position: relative;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .header::after {
     content: "";
-    background-color: #171b3c;
+    background-color: #1c1f40;
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.6;
+    opacity: 0.9;
   }
+
+ .header_content{
+    position: relative;
+    z-index: 1;
+  }
+
+.logosvg{
+  display: flex;
+}
+
+.header_logo{
+  width: 132px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 21px;
+}
+
+.header_title{
+  color: #ffffff;
+  margin-top: 135px;
+  font-size: 28px;
+  display: block;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 87px;
+}
+
+.header_title_line1{
+  margin-left: 18px;
+}
+
+.header_title_line2{
+  margin-left: 64px;
+  display: block; 
+  }
+
+  .buttons{
+    display: block;
+    
+  }
+
+  .texts_style{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button_apple, .button_android{
+    display: flex;
+    border-radius: 30px;
+    padding: 8px 0;
+    background-color: #5e42b0;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .button_apple {
+      margin-bottom: 14px;
+    }
+
+  .button_apple_svg, .button_android_svg{
+    width: 24px;
+    fill: white;
+  }
+
+ .button_android_svg{
+   margin-left: -15px;
+ }
+
+  .text_style_regular, .text_style_bold{
+    color: white;
+  }
+
+ .text_style_regular{
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 8px;
+  text-align: left;
+
+  }
+
+  .text_style_bold{
+    font-family: "Open Sans", Arial, sans-serif; 
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+
+.title_srction_line1{
+  font-size: 50px;
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7e7e7;
+  margin-bottom: 245px;
+  margin-left: 20px;
+
+}
+
+
+  
 

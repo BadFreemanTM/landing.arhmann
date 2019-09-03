@@ -199,14 +199,18 @@ a{
 
 .title_section_line_head1::before{
   content: '01';
+  display: inline-block;
+  position: relative;
   font-size: 15px;
   color: black;
-}
-
-.title_section_line_head1::after{
-  content: '';
+  left: 0;
+    top: -8px;
+    bottom: 0;
+    right: 0;
   border-bottom: 4px solid #5e42b0;
 }
+
+
 
 
   

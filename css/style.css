@@ -157,6 +157,7 @@ a{
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 46px;
+  margin-bottom: 25px;
 }
 
 .title_section_block1_line{
@@ -178,11 +179,20 @@ a{
   padding-top: 75px;
 }
 
-.section_line_p1, .section_line_p2, .section_line_p3{
+.section_line_p1, .section_line_p2{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
   font-size: 15px;
   color: black;
+  padding-bottom: 56px;
+  margin-left: 20px;
+}
+
+.section_line_p3{
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
   padding-bottom: 56px;
   margin-left: 20px;
 }

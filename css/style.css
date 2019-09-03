@@ -139,7 +139,7 @@ a{
     font-size: 8px;
   }
 
-.title_srction_line1{
+.title_section_line_head{
   font-size: 50px;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
@@ -148,6 +148,43 @@ a{
   margin-bottom: 245px;
   margin-left: 20px;
 
+}
+
+.title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
+  color: #c1c1c1;
+  font-size: 23px;
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 46px;
+}
+
+.title_section_block1_line{
+  background-color: #fafafa;
+  
+}
+
+.title_section_block2_line{
+  background-color: #f5f4f9;
+  
+}
+
+.title_section_block3_line{
+  background-color: #5e42b0;
+  
+}
+
+.title_section_block1_line, .title_section_block2_line, .title_section_block3_line{
+  padding-top: 75px;
+}
+
+.section_line_p1, .section_line_p2, .section_line_p3{
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  padding-bottom: 56px;
+  margin-left: 20px;
 }
 
 

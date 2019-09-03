@@ -25,3 +25,25 @@ ul {
   list-style-type: none;
 }
 
+.header {
+    background-image: url("../img/football_767.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000000;
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  
+  .header::after {
+    content: "";
+    background-color: #171b3c;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+

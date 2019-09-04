@@ -269,6 +269,51 @@ a{
   height: 248px;
   top:100px;
   left:-15px;
+  
+}
+
+.footer{
+  background-image: url("../img/game_767.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer::after {
+  content: "";
+  background-color: #1c1f40;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.9;
+}
+
+.footer_content{
+  position: relative;
+  z-index: 1;
+}
+
+.footer_logosvg_top{
+  width: 74px;
+  height: 74px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 112px;
+  display: block;
+  background-color: #5e42b0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.footer_svg_top{
+  width: 54px; 
+  padding: 10px;
 
   
 }

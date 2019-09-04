@@ -1,4 +1,7 @@
 
+html {
+   font-size: 62.5%
+} 
 
 * {
     margin: 0;
@@ -70,7 +73,7 @@ a{
 .header_title{
   color: #ffffff;
   margin-top: 135px;
-  font-size: 28px;
+  font-size: 2.8rem;
   display: block;
   text-transform: uppercase;
   text-align: left;
@@ -96,7 +99,7 @@ a{
     flex-direction: column;
   }
 
-  .button_apple, .button_android{
+  .button_apple, .button_android , .footer_button_apple, .footer_button_android{
     display: flex;
     border-radius: 30px;
     padding: 8px 0;
@@ -105,7 +108,11 @@ a{
     justify-content: center;
     }
 
-    .button_apple {
+    .button_android{
+      margin-bottom: 80px;
+    }
+
+    .button_apple, .footer_button_apple {
       margin-bottom: 14px;
     }
 
@@ -126,7 +133,7 @@ a{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 0.8rem;
   text-align: left;
 
   }
@@ -136,11 +143,11 @@ a{
     font-weight: 700;
     display: block;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 0.8rem;
   }
 
 .title_section_line_head{
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
   text-transform: uppercase;
@@ -170,7 +177,7 @@ a{
 
 .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
   color: #c1c1c1;
-  font-size: 23px;
+  font-size: 2.3rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
   text-transform: uppercase;
@@ -200,7 +207,7 @@ a{
 .section_line_p1, .section_line_p2{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: black;
   padding-bottom: 56px;
   margin-left: 20px;
@@ -210,7 +217,7 @@ a{
 .section_line_p3{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: white;
   padding-bottom: 56px;
   margin-left: 20px;
@@ -221,7 +228,7 @@ a{
   content: '01';
   display: inline-block;
   position: relative;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: black;
   left: -10px;
     top: -8px;
@@ -234,7 +241,7 @@ a{
   content: '02';
   display: inline-block;
   position: relative;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: black;
   left: -10px;
     top: -8px;
@@ -247,7 +254,7 @@ a{
   content: '03';
   display: inline-block;
   position: relative;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: black;
     left: -10px;
     top: -8px;
@@ -275,7 +282,7 @@ a{
 }
 
 .section3_title_h{
-  font-size: 28px;
+  font-size: 2.8rem;
   text-transform: uppercase;
   color: #e7e7e7;
   font-family: "Open Sans", Arial, sans-serif; 
@@ -286,7 +293,7 @@ a{
 }
 
 .section3_p{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
   color: black;
@@ -345,7 +352,7 @@ a{
 
 
 .footer_title_line1{
-  font-size: 32px;
+  font-size: 3.2rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
   display: block;
@@ -358,7 +365,7 @@ a{
 
 .footer_title_line2{
   display: block;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 400;
   text-transform: uppercase;

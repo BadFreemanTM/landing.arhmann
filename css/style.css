@@ -261,9 +261,15 @@ a{
 .title_block_section2::after{
   background-image: url("../img/basketballer_302.png");
   content: '';
-  width: 100%;
-  height: 100%;
   background-repeat: no-repeat;
   background-size: 302px 248px;
+  background-position: center center;
+  background-size: cover;
+  width: 302px;
+  height: 248px;
+  top:100px;
+  left:-15px;
+
+  
 }
 

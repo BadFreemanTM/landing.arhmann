@@ -154,10 +154,8 @@ a{
 .title_section_line_head::after{
   background-image: url("../img/footballer_192.png");
   content: '';
-  width: 100%;
-  height: 100%;
   background-repeat: no-repeat;
-  top:610px;
+  top:90px;
   left: 71px;
   right:0;
   bottom: 0;
@@ -165,6 +163,13 @@ a{
   background-size: 192px 281px;
 
 }
+
+.block_section{
+  position: relative;
+}
+
+
+
 
 .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
   color: #c1c1c1;

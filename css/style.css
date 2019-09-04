@@ -309,12 +309,54 @@ a{
   background-color: #5e42b0;
   text-align: center;
   border-radius: 15px;
+  background: linear-gradient(to bottom, #7555d5 0%,#51379c 100%);
 }
 
 .footer_svg_top{
   width: 54px; 
   padding: 10px;
-
   
+}
+
+
+.footer_title_line1{
+  font-size: 32px;
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  margin-top: 57px;
+}
+
+.footer_title_line2{
+  display: block;
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #9b8ec1;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 73px;
+}
+
+.footer_buttons{
+  margin-bottom: 80px;
+}
+
+.footer_logosvg_bottom{
+  display: flex;
+}
+
+.footer_logo_bootom{
+  margin-bottom: 0;
+  
+}
+
+.footer_button_android{
+  margin-bottom: 80px;
 }
 

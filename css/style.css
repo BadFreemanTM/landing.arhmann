@@ -147,6 +147,22 @@ a{
   color: #e7e7e7;
   margin-bottom: 245px;
   margin-left: 20px;
+  
+
+}
+
+.title_section_line_head::after{
+  background-image: url("../img/basketballer_302.png");
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  top:610px;
+  left: 3px;
+  right:0;
+  bottom: 0;
+  position: absolute;
+  background-size: 302px 248px;
 
 }
 

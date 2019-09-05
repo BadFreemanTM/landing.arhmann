@@ -8,14 +8,6 @@ html {
     padding: 0;
     list-style-type: none;
 
-   
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
 }
 
 body{
@@ -476,3 +468,59 @@ a{
   margin-bottom: 80px;
 }
 
+@media (min-width: 641px) and (max-width: 960px) {
+  
+  .header_logo{
+    width: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 39px;
+  }
+
+  .header_title{
+    color: #ffffff;
+    margin-top: 272px;
+    font-size: 6.4rem;
+    display: block;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 87px;
+  }
+  
+  .header_title_line1{
+    margin-left: 91px;
+  }
+  
+  .header_title_line2{
+    margin-left: 200px;
+    display: block; 
+    }
+  
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 90px;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      
+    }
+
+    .button_android, .button_apple{
+      margin:0;
+      width: 311px;
+      
+    }
+    
+    .text_style_regular, .text_style_bold{
+      font-size: 1.4rem;
+    }
+
+    .button_apple_svg, .button_android_svg{
+      width: 38px;
+      margin-right: 27px;
+    }
+
+}

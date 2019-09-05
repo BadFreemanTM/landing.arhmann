@@ -91,6 +91,8 @@ a{
 
   .buttons{
     display: block;
+    margin-left:20px;
+    margin-right: 20px;
     
   }
 
@@ -303,6 +305,42 @@ a{
 
 }
 
+.title_h_for_before1{
+  position: relative;
+  
+}
+
+
+.title_h_for_before1::before{
+  content: '01';
+  width: 69px;
+  height: 69px;
+  display: block;
+  position: absolute;
+  background-color: #5e42b0;
+  top: -55px;
+  font-size: 1.5rem;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+.title_h_for_before1::after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -78px;
+  left: -119px;
+  width: 15px; 
+  height: 4px; 
+  background-color:  #8f7bc8;
+  border-radius: 2px;
+}
+
+
+
+
+
 
 .footer{
   background-image: url("../img/game_767.jpg");
@@ -350,6 +388,12 @@ a{
   
 }
 
+.footer_title{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
 
 .footer_title_line1{
   font-size: 3.2rem;
@@ -357,8 +401,6 @@ a{
   font-weight: 700;
   display: block;
   text-transform: uppercase;
-  margin-left: 20px;
-  margin-right: 20px;
   color: white;
   margin-top: 57px;
 }

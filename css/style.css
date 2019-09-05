@@ -305,7 +305,7 @@ a{
 
 }
 
-.title_h_for_before1{
+.title_h_for_before1, .title_h_for_before2, .title_h_for_before3{
   position: relative;
   
 }
@@ -337,10 +337,55 @@ a{
   border-radius: 2px;
 }
 
+.title_h_for_before2::before{
+  content: '02';
+  width: 69px;
+  height: 69px;
+  display: block;
+  position: absolute;
+  background-color: #5e42b0;
+  top: -55px;
+  font-size: 1.5rem;
+  line-height: 60px;
+  text-align: center;
+}
 
+.title_h_for_before2::after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -77px;
+  left: -187px;
+  width: 15px; 
+  height: 4px; 
+  background-color: #8f7bc8;
+  border-radius: 2px;
+}
 
+.title_h_for_before3::before{
+  content: '03';
+  width: 69px;
+  height: 69px;
+  display: block;
+  position: absolute;
+  background-color: #5e42b0;
+  top: -55px;
+  font-size: 1.5rem;
+  line-height: 60px;
+  text-align: center;
+}
 
-
+.title_h_for_before3::after{
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -77px;
+  left: -99px;
+  width: 15px; 
+  height: 4px; 
+  background-color: #8f7bc8;
+  border-radius: 2px;
+}
 
 .footer{
   background-image: url("../img/game_767.jpg");

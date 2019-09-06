@@ -569,4 +569,53 @@ a{
       left:-163px;
     }
 
+    .title_block_section2::after{   /* removed this block after problems with inheritance css from (block title_section_line_head) */
+      display: none;
+    }
+ 
+    .title_block_section2{
+      font-size: 8rem;
+      margin-top: 80px;
+      margin-left: 65px;
+      margin-right: auto;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    
+    .title_section2_line_head1, .title_section2_line_head2, .title_section2_line_head3{
+      font-size: 3.2rem;
+    }
+    
+     .title_section2_block1_line{
+      background-color: white;
+      padding-top: 30px;
+      padding-left: 33px;
+      padding-right: 350px;
+     }
+
+     .title_section2_block2_line{
+      padding-left: 33px;
+      padding-right: 350px;
+     }
+
+     .title_section2_block3_line{
+      padding-left: 33px;
+      padding-right: 350px;
+      background-color: #090c35;
+     }
+
+     .title_section_line_head3::before{
+      content: '03';
+      display: inline-block;
+      position: relative;
+      font-size: 1.5rem;
+      color: #8765dd;
+      left: -10px;
+        top: -8px;
+        bottom: 0;
+        right: 0;
+      border-bottom: 4px solid #efefef;
+    }
+    
+
 }

@@ -695,14 +695,14 @@ a{
     }
 
     .footer_svg_top{
-      width: 117px;
-    
-
+      width: 95px;
+      padding: 21px;
     }
 
     .footer_logosvg_top{
     width: 136px;
     height: 130px;
+    border-radius: 30px;
     }
 
     .footer_button_android{

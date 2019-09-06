@@ -678,9 +678,44 @@ a{
 
     .footer_title_line1{
       font-size: 8rem;
+      
     }
 
     .footer_title_line2{
       font-size: 3.6rem;
+    }
+
+    .footer_buttons{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      margin-top: 280px;
+    }
+
+  
+
+    .footer_button_android{
+     margin: 0;
+     width: 300px;
+     height: 50px;
+    }
+
+    .footer_button_apple{
+      width: 300px;
+      margin: 0;
+      margin-right: 28px;
+      height: 50px;
+      
+    }
+    .footer_logo_bootom{
+      
+      margin-top: 100px;
+      
+    }
+
+    .footer_logosvg_bottom{
+      margin-bottom: 20px;
     }
 }

@@ -647,23 +647,40 @@ a{
      
     .title_h_for_before1::after{
       width: 28px;
-      top: -78px;
-      left: -70px;
+      top: -137px;
+      left: -341px;
       height: 4px; 
     }
     
     .title_h_for_before2::after{
       width: 28px;
-      top: -78px;
-      left: -140px;
+      top: -135px;
+      left: -539px;
       height: 4px; 
     }
 
     .title_h_for_before3::after{
       width: 28px;
-      top: -78px;
-      left: -51px;
+      top: -136px;
+      left: -285px;
       height: 4px; 
     }
 
+    .section3_title_h{
+      font-size: 8rem;
+
+    }
+
+    .section3_p{
+      font-size: 2.4rem;
+      padding-bottom: 98px;
+    }
+
+    .footer_title_line1{
+      font-size: 8rem;
+    }
+
+    .footer_title_line2{
+      font-size: 3.6rem;
+    }
 }

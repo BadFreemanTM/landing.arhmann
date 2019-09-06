@@ -523,4 +523,50 @@ a{
       margin-right: 27px;
     }
 
+    .title_section_line_head{
+      font-size: 8rem;
+      margin-top: 80px;
+      margin-left: 290px;
+      margin-right: auto;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
+      font-size: 3.2rem;
+    }
+
+    .section_line_p1, .section_line_p2, .section_line_p3{
+      font-size: 1.6rem;
+    }
+
+    .title_section_block1_line{
+      background-color: white;
+      padding-top: 30px;
+      padding-left: 254px;
+    }
+
+    .title_section_block2_line, .title_section_block3_line {
+      padding-top: 30px;
+      padding-left: 254px;
+    }
+
+    .block_section{
+      position: relative;
+    }
+
+    .title_section_line_head::after{
+      background-image: url("../img/footballer_497.png");
+      content: '';
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: 497px 699px;
+      background-position: center center;
+      background-size: cover;
+      width: 497px;
+      height: 699px;
+      top:35px;
+      left:-163px;
+    }
+
 }

@@ -175,7 +175,7 @@ a{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 46px;
+  margin-left: 65px;
   margin-bottom: 25px;
 }
 
@@ -572,6 +572,7 @@ a{
     .block_section2{
       position: relative;
     }
+
     .block_section2::after{
       background-image: url("../img/basketballer_436.png");
       content: '';

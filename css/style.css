@@ -652,8 +652,18 @@ a{
       height: 4px; 
     }
     
-    .title_h_for_before1::after{
+    .title_h_for_before2::after{
+      width: 28px;
+      top: -78px;
+      left: -140px;
+      height: 4px; 
+    }
 
+    .title_h_for_before3::after{
+      width: 28px;
+      top: -78px;
+      left: -51px;
+      height: 4px; 
     }
 
 }

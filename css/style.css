@@ -694,7 +694,16 @@ a{
       margin-top: 280px;
     }
 
-  
+    .footer_svg_top{
+      width: 117px;
+    
+
+    }
+
+    .footer_logosvg_top{
+    width: 136px;
+    height: 130px;
+    }
 
     .footer_button_android{
      margin: 0;
@@ -707,12 +716,10 @@ a{
       margin: 0;
       margin-right: 28px;
       height: 50px;
-      
     }
+
     .footer_logo_bootom{
-      
       margin-top: 100px;
-      
     }
 
     .footer_logosvg_bottom{

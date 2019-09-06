@@ -608,13 +608,17 @@ a{
       content: '03';
       display: inline-block;
       position: relative;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: #8765dd;
       left: -10px;
         top: -8px;
         bottom: 0;
         right: 0;
       border-bottom: 4px solid #efefef;
+    }
+
+    .section2_line_p3{
+
     }
     
 

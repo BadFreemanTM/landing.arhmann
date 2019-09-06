@@ -617,9 +617,43 @@ a{
       border-bottom: 4px solid #efefef;
     }
 
-    .section2_line_p3{
+    .title_section_line_head2::before{
+      font-size: 1.8rem;
+    }
 
+    .title_section_line_head1::before{
+      font-size: 1.8rem;
     }
     
+    .title_section_line_head1::before{
+      font-size: 1.8rem;
+    }
+    
+    .title_section_line_head2::before{
+      font-size: 1.8rem;
+    }
+    .title_section_line_head3::before{
+      font-size: 1.8rem;
+    }
+
+    .title_h_for_before1::before, .title_h_for_before2::before, .title_h_for_before3::before{
+      font-size: 2.4rem;
+      width: 114px;
+      height: 114px;
+      line-height: 99px;
+      margin-left: 32px;
+      margin-top: -30px;
+    }
+     
+    .title_h_for_before1::after{
+      width: 28px;
+      top: -78px;
+      left: -70px;
+      height: 4px; 
+    }
+    
+    .title_h_for_before1::after{
+
+    }
 
 }

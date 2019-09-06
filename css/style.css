@@ -569,6 +569,24 @@ a{
       left:-163px;
     }
 
+    .block_section2{
+      position: relative;
+    }
+    .block_section2::after{
+      background-image: url("../img/basketballer_436.png");
+      content: '';
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: 436px 565px;
+      background-position: center center;
+      background-size: cover;
+      width: 436px;
+      height: 565px;
+      top:-16px;
+      right :-29px;
+
+    }
+
     .title_block_section2::after{   /* removed this block after problems with inheritance css from (block title_section_line_head) */
       display: none;
     }

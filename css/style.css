@@ -175,7 +175,7 @@ a{
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 42px;
+  margin-left: 65px;
   margin-bottom: 25px;
 }
 
@@ -204,7 +204,7 @@ a{
   font-size: 1.5rem;
   color: black;
   padding-bottom: 56px;
-  margin-left: 52px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
@@ -214,7 +214,7 @@ a{
   font-size: 1.5rem;
   color: white;
   padding-bottom: 56px;
-  margin-left: 52px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
@@ -548,7 +548,7 @@ a{
     .title_section_line_head{
       font-size: 8rem;
       margin-top: 80px;
-      margin-left: 307px;
+      margin-left: 290px;
       margin-right: auto;
       padding-bottom: 0;
       margin-bottom: 0;
@@ -565,7 +565,7 @@ a{
     .title_section_block1_line{
       background-color: white;
       padding-top: 30px;
-      padding-left: 270px;
+      padding-left: 254px;
     }
 
     .title_section_block2_line, .title_section_block3_line {
@@ -617,7 +617,7 @@ a{
     .title_block_section2{
       font-size: 8rem;
       margin-top: 80px;
-      margin-left: 59px;
+      margin-left: 65px;
       margin-right: auto;
       padding-bottom: 0;
       margin-bottom: 0;

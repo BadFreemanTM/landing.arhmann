@@ -689,39 +689,41 @@ a{
       width: 114px;
       height: 114px;
       line-height: 99px;
-      margin-left: 32px;
+      margin-left: 9px;
       margin-top: -30px;
     }
      
     .title_h_for_before1::after{
       width: 28px;
       top: -137px;
-      left: -341px;
+      left: -364px;
       height: 4px; 
     }
     
     .title_h_for_before2::after{
       width: 28px;
       top: -135px;
-      left: -539px;
+      left: -562px;
       height: 4px; 
     }
 
     .title_h_for_before3::after{
       width: 28px;
       top: -136px;
-      left: -285px;
+      left: -309px;
       height: 4px; 
     }
 
     .section3_title_h{
       font-size: 8rem;
+      margin-left: 40px;
 
     }
 
     .section3_p{
       font-size: 2.4rem;
       padding-bottom: 98px;
+      margin-left: 40px;
     }
 
     .footer_title_line1{

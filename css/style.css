@@ -560,7 +560,7 @@ a{
 
     .section_line_p1, .section_line_p2, .section_line_p3{
       font-size: 1.6rem;
-      margin-left: 20px;
+      margin-left: 52px;
      
     }
 
@@ -573,6 +573,10 @@ a{
     .title_section_block2_line, .title_section_block3_line {
       padding-top: 30px;
       padding-left: 254px;
+    }
+
+    .section2_line_p1, .section2_line_p2, .section2_line_p3{
+      margin-left: 20px;
     }
 
     .block_section{

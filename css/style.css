@@ -619,7 +619,7 @@ a{
     .title_block_section2{
       font-size: 8rem;
       margin-top: 80px;
-      margin-left: 65px;
+      margin-left: 51px;
       margin-right: auto;
       padding-bottom: 0;
       margin-bottom: 0;
@@ -627,6 +627,7 @@ a{
     
     .title_section2_line_head1, .title_section2_line_head2, .title_section2_line_head3{
       font-size: 3.2rem;
+      margin-left: 32px;
     }
     
      .title_section2_block1_line{

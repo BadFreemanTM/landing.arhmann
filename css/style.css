@@ -113,11 +113,14 @@ a{
   .button_apple_svg, .button_android_svg{
     width: 24px;
     fill: white;
+    margin-right: 10px;
   }
 
  .button_android_svg{
-   margin-left: -15px;
+   margin-left: -17px;
+  
  }
+
 
   .text_style_regular, .text_style_bold{
     color: white;
@@ -543,6 +546,7 @@ a{
     .button_apple_svg, .button_android_svg{
       width: 38px;
       margin-right: 27px;
+      
     }
 
     .title_section_line_head{

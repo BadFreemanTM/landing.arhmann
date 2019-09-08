@@ -937,7 +937,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   top:-75px;
-  left: 390px;
+  left: 172px;
   right:0;
   bottom: 0;
   position: absolute;
@@ -973,7 +973,7 @@ a{
   }
 
 
-  .players_style{
+  .title_block_section2{
     position: relative;
   }
     
@@ -984,8 +984,8 @@ a{
     background-position: center center;
     background-size: 991px 815px;
     background-size: cover;
-    width: 0px;
-    height: 0px;
+    width: 991px;
+    height: 815px;
     top:0px;
     left:0px;
     

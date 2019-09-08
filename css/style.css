@@ -992,6 +992,20 @@ a{
     
   }
 
+  .block_section3{
+    display: flex;
+    width: 100%;
+  }
+
+  .title_section3_block1_line{
+    display: flex;
+  }
+
+ .photo_block_section_3, .ul_content{
+   width: 50%;
+ }
+
+
   
   
 

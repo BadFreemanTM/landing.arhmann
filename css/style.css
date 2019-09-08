@@ -932,7 +932,7 @@ a{
   }
 
   .block_section::after{
-    background-image: url("../img/footballer_566.png");
+  background-image: url("../img/footballer_566.png");
   content: '';
   background-size: cover;
   background-repeat: no-repeat;
@@ -957,6 +957,7 @@ a{
   .title_block_section2{
     margin-bottom: 50px;
     margin-top: 123px;
+
   }
 
   .title_section2_block3_line{
@@ -965,6 +966,29 @@ a{
 
   .title_section_line_head3::before{
     color: #9173e6;
+  }
+
+  .title_section2_line_head2, .title_section2_line_head3{
+    padding-top: 56px;
+  }
+
+
+  .players_style{
+    position: relative;
+  }
+    
+  .players_style::after{
+    background-image: url("../img/basketballer_991.png");
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 991px 815px;
+    background-size: cover;
+    width: 0px;
+    height: 0px;
+    top:0px;
+    left:0px;
+    
   }
 
   

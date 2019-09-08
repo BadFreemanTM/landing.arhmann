@@ -936,8 +936,8 @@ a{
   content: '';
   background-size: cover;
   background-repeat: no-repeat;
-  top:-75px;
-  left: 172px;
+  top:-9%;
+  left: 23%;
   right:0;
   bottom: 0;
   position: absolute;
@@ -973,11 +973,11 @@ a{
   }
 
 
-  .title_block_section2{
+  .players_style{
     position: relative;
   }
     
-  .players_style::after{
+  .players_style::before{
     background-image: url("../img/basketballer_991.png");
     content: '';
     background-repeat: no-repeat;
@@ -988,6 +988,8 @@ a{
     height: 815px;
     top:0px;
     left:0px;
+    right:0;
+    bottom: 0;
     
   }
 

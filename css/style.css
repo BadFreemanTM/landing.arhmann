@@ -904,7 +904,16 @@ a{
     background-color: white;
     padding: 0;
   }
+
+  .title_section_line_head, .section_line_p1, .section_line_p2, .section_line_p3, 
+  .title_section_line_head1, .title_section_line_head2, .title_section_line_head3 {   /* исправляю ошибку с маргинами и позиционированием */
+  margin-left: 0;
+  margin-left: 40%;
+  }
   
+  .block_section{
+    
+  }
 
 
 }

@@ -879,5 +879,32 @@ a{
     font-size: 1.4rem;
   }
 
+  .title_section_line_head::after{   /* скрыл футболиста сверху, сменю его привязку на секцию*/
+    display: none;
+  }
+
+  .title_section_line_head{
+    font-size: 8rem;
+    margin-bottom: 112px;
+  }
+
+  .title_section_line_head1, .title_section_line_head2, .title_section_line_head3 {
+    font-size: 3.6rem;
+  }
+
+  .title_section_line_head1::before{    /* вернуться к этому для правки шрифта */
+    font-size: 1.8rem;
+  }
+
+  .section_line_p1, .section_line_p2, .section_line_p3{
+    font-size: 2rem;
+  }
+
+  .title_section_block1_line{
+    background-color: white;
+    padding: 0;
+  }
+  
+
 
 }

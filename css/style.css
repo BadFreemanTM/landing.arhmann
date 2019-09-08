@@ -933,13 +933,13 @@ a{
   .block_section::after{
     background-image: url("../img/footballer_566.png");
     background-size: 29.5vw;
-  content: '';
-  background-repeat: no-repeat;
-  top:-10vh;
-  left: 16vw;
-  width: 566px;
-  height: 908px;                     /* стоит ли ширину указать */
-  position: absolute;
+   content: '';
+   background-repeat: no-repeat;
+   top:-10vh;
+   left: 16vw;
+   width: 566px;
+   height: 908px;                     /* стоит ли ширину указать */
+   position: absolute;
   }
 
   .title_section2_block1_line, .title_section2_block2_line, .title_section2_block3_line, .title_block_section2{

@@ -832,8 +832,51 @@ a{
   }
 
   .header_logo{
-    width: 100px;
+    width: 184px;
     margin-top: 0px;
+  }
+ 
+  .header_title{
+    
+    margin-top: 291px;
+    font-size: 9rem;
+    margin-bottom: 213px;
+  }
+
+  .header_title_line1{
+    margin-left: 8.33vw;
+  }
+
+  .header_title_line2{
+    text-align: right;
+    margin-right: 8.33vw;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 106px;
+  }
+
+  .button_apple, .button_android{
+    width: 310px;
+    height: 74px;
+    margin:0;
+    border-radius: 45px;
+  }
+
+  .button_apple{
+    margin-right: 53px;
+  }
+
+  .button_apple_svg, .button_android_svg{
+    width: 60px;
+    height: 63px;
+  }
+
+  .text_style_regular, .text_style_bold{
+    font-size: 1.4rem;
   }
 
 

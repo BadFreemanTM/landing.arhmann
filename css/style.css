@@ -992,10 +992,6 @@ a{
     
   }
 
-  .block_section3{
-    display: flex;
-    width: 100%;
-  }
 
   .title_section3_block1_line{
     display: flex;
@@ -1003,8 +999,18 @@ a{
 
  .photo_block_section_3, .ul_content{
    width: 50%;
+   object-fit: cover;
  }
 
+ .block_pic_css{
+   display: flex;
+   flex-direction: row-reverse;
+ }
+
+ .photo_block_section_3{
+   display: block;
+   object-fit: cover;
+ }
 
   
   

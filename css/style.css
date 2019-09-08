@@ -1012,6 +1012,18 @@ a{
    object-fit: cover;
  }
 
+ .block_section3{
+   font-size: 0;  /* ЭТО БЛ*ДЬ Я УБРАЛО ОТСТУПЫ У ФОТО, ОТСТУПЫ, У ФОТО, КАРЛ!!!!! ОТСТУПЫ СКА У ФОТО!!!!!!!!! FONT-SIZE!*/
+ }
+
+ .title_h_for_before1, .title_h_for_before2, .title_h_for_before3{
+   font-size: 8rem;
+ }
+
+ .section3_p{
+   font-size: 2.4rem;
+ }
+
   
   
 

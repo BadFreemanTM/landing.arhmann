@@ -1060,14 +1060,13 @@ a{
  .section3_title_h, .section3_p{
    margin: 0;
    padding: 0;
-   width: 100%;
  }
 
  .section3_title_h, .section3_p{
    
    padding-left: 14%;
    padding-top: 22%;
-   width: 100%;
+   padding-right: 8.33%;
  }
 
  .section3_p{

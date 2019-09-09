@@ -999,7 +999,7 @@ a{
 
  .photo_block_section_3, .ul_content{
    width: 50%;
-   object-fit: cover;
+   
  }
 
  .block_pic_css{
@@ -1009,11 +1009,11 @@ a{
 
  .photo_block_section_3{
    display: block;
-   object-fit: cover;
+   
  }
 
  img{
-   display: block}
+   display: block}  /* исправляю отступы у img*/
 
  
 

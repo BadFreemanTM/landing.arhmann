@@ -1109,6 +1109,10 @@ a{
    text-align: left;
  }
   
+ img{
+   height: 100%;
+   object-fit: cover;
+ }
   
 
 }

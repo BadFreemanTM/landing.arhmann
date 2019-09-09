@@ -854,9 +854,13 @@ a{
 
   .buttons{
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 90px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 106px;
+   
   }
 
   .button_apple, .footer_button_apple, .button_android, .footer_button_android{
@@ -1050,7 +1054,24 @@ a{
  .footer_parent_logo_title{
    display:flex;
    align-items: center;
-  justify-content: center;
+   justify-content: center;
+ }
+
+ .section3_title_h, .section3_p{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+ .section3_title_h, .section3_p{
+   
+   padding-left: 14%;
+   padding-top: 22%;
+   width: 100%;
+ }
+
+ .section3_p{
+   padding-top: 7%;
  }
   
   

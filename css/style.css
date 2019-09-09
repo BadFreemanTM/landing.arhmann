@@ -973,6 +973,7 @@ a{
 
   .players_style{
     position: relative;
+    overflow: hidden 
   }
     
   .players_style::before{
@@ -981,12 +982,12 @@ a{
 
    width: 991px;
    height: 815px;
-   top: -11%;
-   right: 2%;
+   top: 1px;
+   left: 34%;
 
    background-image: url("../img/basketballer_991.png");
-   background-size: 52vw;
-   background-position: center center;
+   background-size: 991px 815px;
+   background-position: top center;
    background-repeat: no-repeat;
     
   }

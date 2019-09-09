@@ -902,6 +902,8 @@ a{
     font-size: 1.8rem;
   }
 
+  
+
   .section_line_p1, .section_line_p2, .section_line_p3{
     font-size: 2rem;
   }
@@ -967,7 +969,7 @@ a{
   }
 
   .title_section_line_head3::before{
-    color: #9173e6;
+    color:  black;
   }
 
   .title_section2_line_head2, .title_section2_line_head3{
@@ -1082,6 +1084,8 @@ a{
  .title_section3_block1_line{
   position: relative;
  }
+
+ 
 
   /*далее footer */
 

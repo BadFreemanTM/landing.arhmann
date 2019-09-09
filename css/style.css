@@ -1102,6 +1102,7 @@ a{
     position: absolute;
  }
 
+
  .title_h_for_before2::after, .title_h_for_before3::after{
   top: 280px;
   left: calc(50% - 12px);

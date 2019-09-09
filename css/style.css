@@ -1085,6 +1085,15 @@ a{
   position: relative;
  }
 
+ .title_h_for_before1::before{
+  width: 168px;
+  height: 165px;
+  top: 194px;
+  left: 46%;
+  font-size: 2.4rem;
+  line-height: 157px;
+ }
+
  
 
   /*далее footer */

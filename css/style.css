@@ -807,7 +807,7 @@ a{
 
 }
 
-@media (min-width: 960px){
+@media (min-width: 961px){
 
   .header {
     background-image: url("../img/football_1920.jpg");
@@ -1073,6 +1073,13 @@ a{
    padding-top: 7%;
    padding-bottom: 220px;
  }
+
+ .section3_title_h{
+   position: static;
+
+ }
+
+  /*далее footer */
 
  .footer_title_line1, .footer_title_line2{
    margin-top: 0;

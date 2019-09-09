@@ -980,12 +980,12 @@ a{
    position: absolute;
 
    width: 991px;
-   height: 815px;;
-   top: 27px;
-   right: 0%;
+   height: 815px;
+   top: -11%;
+   right: 5%;
 
    background-image: url("../img/basketballer_991.png");
-   background-size: 40vw;
+   background-size: 52vw;
    background-position: center center;
    background-repeat: no-repeat;
     

@@ -1085,7 +1085,7 @@ a{
   position: relative;
  }
 
- .title_h_for_before1::before{
+ .title_h_for_before1::before, .title_h_for_before2::before, .title_h_for_before3::before{
   width: 168px;
   height: 165px;
   top: 194px;

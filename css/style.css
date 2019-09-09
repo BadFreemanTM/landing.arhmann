@@ -1072,6 +1072,25 @@ a{
  .section3_p{
    padding-top: 7%;
  }
+
+ .footer_title_line1, .footer_title_line2{
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+ .footer_parent_logo_title{
+   margin-top: 250px;
+   margin-bottom: 160px;
+   display: flex;
+ }
+
+ .footer_buttons{
+   margin-bottom: 250px;
+ }
+
+ .button_apple_svg{
+   display: block;
+ }
   
   
 

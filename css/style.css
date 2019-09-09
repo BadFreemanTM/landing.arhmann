@@ -859,14 +859,14 @@ a{
     margin-bottom: 106px;
   }
 
-  .button_apple, .button_android{
+  .button_apple, .footer_button_apple, .button_android, .footer_button_android{
     width: 310px;
     height: 74px;
     margin:0;
     border-radius: 45px;
   }
 
-  .button_apple{
+  .button_apple, .footer_button_apple{
     margin-right: 53px;
   }
 
@@ -1024,6 +1024,21 @@ a{
    font-size: 2.4rem;
  }
 
+ .footer_title_line1{
+   font-size: 8rem;
+ }
+
+ .footer_title_line2{
+   font-size: 3rem;
+ }
+
+ .footer_logosvg_top{
+   margin-left: 29vw;
+ }
+
+ .footer_parent_logo_title{
+   display:block;
+ }
   
   
 

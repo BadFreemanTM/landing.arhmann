@@ -1012,9 +1012,10 @@ a{
    object-fit: cover;
  }
 
- .block_section3{
-   font-size: 0;  /* ЭТО БЛ*ДЬ Я УБРАЛО ОТСТУПЫ У ФОТО, ОТСТУПЫ, У ФОТО, КАРЛ!!!!! ОТСТУПЫ СКА У ФОТО!!!!!!!!! FONT-SIZE!*/
- }
+ img{
+   display: block}
+
+ 
 
  .title_h_for_before1, .title_h_for_before2, .title_h_for_before3{
    font-size: 8rem;
@@ -1033,11 +1034,23 @@ a{
  }
 
  .footer_logosvg_top{
-   margin-left: 29vw;
+   margin:0;
+ }
+
+ .footer_title{
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+ .footer_title{
+   display: block;
+   
  }
 
  .footer_parent_logo_title{
-   display:block;
+   display:flex;
+   align-items: center;
+  justify-content: center;
  }
   
   

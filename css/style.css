@@ -1089,9 +1089,15 @@ a{
   width: 168px;
   height: 165px;
   top: 194px;
-  left: 46%;
+  left:calc(50% - 84px);
   font-size: 2.4rem;
-  line-height: 157px;
+  line-height: 143px;
+ }
+
+ .title_h_for_before1::after{
+   top: -14px;
+    left: -566px;
+    width: 24px;
  }
 
  

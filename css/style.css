@@ -1091,6 +1091,23 @@ a{
  .button_apple_svg{
    display: block;
  }
+
+ .footer_logosvg_top{
+   width: 140px;
+   height: 140px;
+   border-radius: 37px;
+   margin-right: 35px;
+ }
+
+ .footer_svg_top{
+  width: 101px;
+  padding: 22px;
+ }
+
+ .footer_title_line2{
+   margin: 0;
+   text-align: left;
+ }
   
   
 

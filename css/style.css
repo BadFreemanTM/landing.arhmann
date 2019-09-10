@@ -121,7 +121,6 @@ a{
   
  }
 
-
   .text_style_regular, .text_style_bold{
     color: white;
   }
@@ -207,8 +206,8 @@ a{
   font-size: 1.5rem;
   color: black;
   padding-bottom: 56px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 53px;
+  padding-right: 20px;
 }
 
 .section_line_p3{
@@ -217,8 +216,8 @@ a{
   font-size: 1.5rem;
   color: white;
   padding-bottom: 56px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 53px;
+  padding-right: 20px;
 }
 
 .title_section_line_head1::before{

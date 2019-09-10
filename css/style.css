@@ -831,6 +831,10 @@ a{
     opacity: 0.9;
   }
 
+  .header_title{
+    display: block;
+  }
+
   .header_logo{
     width: 184px;
     margin-top: 0px;
@@ -879,6 +883,16 @@ a{
     height: 63px;
   }
 
+  .button_apple:hover, .button_android:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #51379c;
+    }
+
+    .footer_button_apple:hover, .footer_button_android:hover{
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #51379c;
+    }
+
   .text_style_regular, .text_style_bold{
     font-size: 1.4rem;
   }
@@ -902,7 +916,6 @@ a{
     font-size: 1.8rem;
   }
 
-  
 
   .section_line_p1, .section_line_p2, .section_line_p3{
     font-size: 2rem;
@@ -969,7 +982,7 @@ a{
   }
 
   .title_section_line_head3::before{
-    color:  black;
+    color:  white;
   }
 
   .title_section2_line_head2, .title_section2_line_head3{
@@ -1109,8 +1122,6 @@ a{
   width: 26px;
   position: absolute;
  }
-
- 
 
   /*далее footer */
 

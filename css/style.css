@@ -244,7 +244,6 @@ a{
   color: black;
   left: 55px;
   top: 6px;
-  right: 303px;
   border-bottom: 4px solid #5e42b0;
 }
 
@@ -256,11 +255,10 @@ a{
   color: black;
   left: 55px;
   top: 6px;
-  right: 303px;
   border-bottom: 4px solid white;
 }
 
-.title_section_line_head1, .title_block_section2, .title_section_line_head3{
+.title_section_line_head1, .title_block_section2, .title_section_line_head3 .title_section_line_head{
   position: relative;
 }
 

@@ -178,9 +178,13 @@ a{
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 80px;
+  padding-left: 89px;
   padding-top: 4px;
   margin-bottom: 25px;
+}
+
+.title_section_line_head3{
+  
 }
 
 .title_section_block1_line{
@@ -662,7 +666,7 @@ a{
       position: relative;
       font-size: 1.8rem;
       color: #8765dd;
-      left: -10px;
+      left: -24px;
         top: -8px;
         bottom: 0;
         right: 0;
@@ -673,24 +677,14 @@ a{
       font-size: 1.8rem;
     }
     
-    .title_section_line_head1::before{
+    .title_section_line_head1::before, .title_section_line_head2::before{
       font-size: 1.8rem;
       width: 17px;
       left: 55px;
       top: 10px;
     }
+
     
-    .title_section_line_head2::before{
-      font-size: 1.8rem;
-      font-size: 1.8rem;
-    width: 17px;
-    left: 55px;
-    top: 10px;
-    }
-    .title_section_line_head3::before{
-      font-size: 1.8rem;
-      
-    }
 
     .title_h_for_before1::before, .title_h_for_before2::before, .title_h_for_before3::before{
       font-size: 2.4rem;

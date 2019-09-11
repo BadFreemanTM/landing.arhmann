@@ -915,8 +915,10 @@ a{
 
   .title_section_line_head1::before, .title_section_line_head2::before, .title_section_line_head3::before{    /* вернуться к этому для правки шрифта */
     font-size: 1.8rem;
+    left: 56px;
+    top: 14px;
+    margin-right: 302px;
   }
-
 
   .section_line_p1, .section_line_p2, .section_line_p3{
     font-size: 2rem;
@@ -935,12 +937,6 @@ a{
   .title_section_block1_line, .title_section_block2_line, .title_section_block3_line, .title_section_line_head{
     padding-left: 55%;
     padding-right: 8.33%;
-  }
-
-  .title_section_line_head1::before, .title_section_line_head2::before, .title_section_line_head3::before{
-    left: 56px;
-    top: 14px;
-    margin-right: 302px;
   }
 
   .title_section_block3_line{

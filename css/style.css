@@ -1081,9 +1081,9 @@ a{
 
  .section3_title_h, .section3_p{
    
-   padding-left: 14%;
-   padding-top: 22%;
-   padding-right: 8.33%;
+    padding-top: 214px;
+    padding-right: 8.33%;
+    padding-left: calc(83px + 4%);
  }
 
  .section3_p{

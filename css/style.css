@@ -239,7 +239,6 @@ a{
 
 .title_section_line_head2::before{
   content: '02';
-  display: inline-block;
   position: absolute;
   font-size: 1.5rem;
   color: black;
@@ -639,6 +638,7 @@ a{
     
     .title_section2_line_head1, .title_section2_line_head2, .title_section2_line_head3{
       font-size: 3.2rem;
+      position: relative;
       margin-left: 32px;
     }
     

@@ -550,20 +550,21 @@ a{
 
     .title_section_line_head{
       font-size: 8rem;
-      margin-top: 80px;
-      margin-left: 308px;
-      margin-right: auto;
+      padding-top: 80px;
+      padding-left: 308px;
+      padding-right: 20px;
       padding-bottom: 0;
       margin-bottom: 0;
     }
 
     .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
       font-size: 3.2rem;
+      padding-left:2px;
     }
 
     .section_line_p1, .section_line_p2, .section_line_p3{
       font-size: 1.6rem;
-      margin-left: 52px;
+      padding-left: 52px;
      
     }
 

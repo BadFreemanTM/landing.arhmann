@@ -808,7 +808,7 @@ a{
 
 }
 
-@media (min-width: 961px){
+@media (min-width: 961px), (max-width: 1920){
 
   .header {
     background-image: url("../img/football_1920.jpg");
@@ -938,8 +938,9 @@ a{
   }
 
   .title_section_line_head1::before, .title_section_line_head2::before, .title_section_line_head3::before{
-    left: 4px;
-    margin-right: 13px;
+    left: 56px;
+    top: 14px;
+    margin-right: 302px;
   }
 
   .title_section_block3_line{
@@ -955,12 +956,12 @@ a{
     background-size: 100%;
     content: '';
     background-repeat: no-repeat;
-    top: -104px;
-    right: 0;
-    left: -2vw;
-    width: 53.5vw;
+    top: -92px;
+    left: 20vw;
+    width: 31.5vw;
     padding-bottom: 159%;
-    position: absolute;               /* стоит ли ширину указать */
+    position: absolute;
+    max-width: 33vw;              /* стоит ли ширину указать */
   }
 
   .title_section2_block1_line, .title_section2_block2_line, .title_section2_block3_line, .title_block_section2{
@@ -998,18 +999,17 @@ a{
   }
     
   .players_style::before{
-   content: "";
-   position: absolute;
-
-   width: 991px;
-   height: 815px;
-   top: 1px;
-   left: 34%;
-
-   background-image: url("../img/basketballer_991.png");
-   background-size: 991px 815px;
-   background-position: top center;
-   background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 55.6vw;
+    top: -117px;
+    left: 38%;
+    padding-bottom: 121%;
+    background-image: url(../img/basketballer_991.png);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    max-width: 57vw;
     
   }
 

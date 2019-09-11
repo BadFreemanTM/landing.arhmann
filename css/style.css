@@ -1086,9 +1086,18 @@ a{
     padding-left: calc(83px + 4%);
  }
 
+ .section3_p_reverse, .title_h_for_before2{
+  padding-top: 214px;
+  padding-left: 8.33%;
+  padding-right: calc(83px + 4%);
+}
+
+
  .section3_p{
    padding-top: 7%;
    padding-bottom: 220px;
+   padding-left: 8.33%;
+   padding-right: calc(83px + 4%);
  }
 
  .section3_title_h{

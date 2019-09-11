@@ -952,14 +952,15 @@ a{
 
   .block_section::after{
     background-image: url("../img/footballer_566.png");
-    background-size: 566px 908px;
+    background-size: 100%;
     content: '';
     background-repeat: no-repeat;
-    top:-5vh;
-    left: 15vw;
-    width: 566px;
-    height: 908px;                     /* стоит ли ширину указать */
-    position: absolute;
+    top: -104px;
+    right: 0;
+    left: -2vw;
+    width: 53.5vw;
+    padding-bottom: 159%;
+    position: absolute;               /* стоит ли ширину указать */
   }
 
   .title_section2_block1_line, .title_section2_block2_line, .title_section2_block3_line, .title_block_section2{
@@ -993,7 +994,7 @@ a{
 
   .players_style{
     position: relative;
-    overflow: hidden 
+    
   }
     
   .players_style::before{

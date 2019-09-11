@@ -261,7 +261,7 @@ a{
   border-bottom: 4px solid white;
 }
 
-.title_block_section2{
+.title_section_line_head1, .title_block_section2, .title_section_line_head3{
   position: relative;
 }
 
@@ -275,7 +275,7 @@ a{
   width: 302px;
   height: 248px;
   top:100px;
-  left:-15px;
+  left:-40px;
   
 }
 
@@ -916,8 +916,9 @@ a{
   .title_section_line_head1::before, .title_section_line_head2::before, .title_section_line_head3::before{    /* вернуться к этому для правки шрифта */
     font-size: 1.8rem;
     left: 56px;
+    width: 17px;
     top: 14px;
-    margin-right: 302px;
+    
   }
 
   .section_line_p1, .section_line_p2, .section_line_p3{

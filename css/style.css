@@ -550,21 +550,27 @@ a{
     .title_section_line_head{
       font-size: 8rem;
       padding-top: 80px;
-      padding-left: 308px;
+      padding-left: 282px;
       padding-right: 20px;
       padding-bottom: 0;
       margin-bottom: 0;
+      margin-left: 0;
     }
 
     .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
       font-size: 3.2rem;
+      padding-left: 61px;
       
     }
 
-    .section_line_p1, .section_line_p2, .section_line_p3{
+    .section_line_p1, .section_line_p2{
       font-size: 1.6rem;
-      padding-left: 52px;
-     
+      padding-left: 20px;
+    }
+
+    .section_line_p3{
+      font-size: 1.6rem;
+      padding-left: 20px;
     }
 
     .title_section_block1_line{
@@ -576,10 +582,6 @@ a{
     .title_section_block2_line, .title_section_block3_line {
       padding-top: 30px;
       padding-left: 254px;
-    }
-
-    .section2_line_p1, .section2_line_p2, .section2_line_p3{
-      margin-left: 20px;
     }
 
     .block_section{
@@ -625,17 +627,17 @@ a{
  
     .title_block_section2{
       font-size: 8rem;
-      margin-top: 80px;
-      margin-left: 51px;
-      margin-right: auto;
-      padding-bottom: 0;
-      margin-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 53px;
+    padding-top: 38px;
     }
     
     .title_section2_line_head1, .title_section2_line_head2, .title_section2_line_head3{
       font-size: 3.2rem;
       position: relative;
-      margin-left: 32px;
+      padding-left: 59px;
+      
     }
     
      .title_section2_block1_line{
@@ -658,14 +660,11 @@ a{
 
      .title_section_line_head3::before{
       content: '03';
-      display: inline-block;
-      position: relative;
+      position: absolute;
       font-size: 1.8rem;
       color: #8765dd;
-      left: -24px;
-        top: -8px;
-        bottom: 0;
-        right: 0;
+      left:  23px;
+      top: 10px;
       border-bottom: 4px solid #efefef;
     }
 
@@ -676,7 +675,7 @@ a{
     .title_section_line_head1::before, .title_section_line_head2::before{
       font-size: 1.8rem;
       width: 20x;
-      left: 55px;
+      left: 25px;
       top: 10px;
     }
 

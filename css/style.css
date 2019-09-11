@@ -679,7 +679,7 @@ a{
     
     .title_section_line_head1::before, .title_section_line_head2::before{
       font-size: 1.8rem;
-      width: 17px;
+      width: 20x;
       left: 55px;
       top: 10px;
     }

@@ -230,8 +230,6 @@ a{
     color: black;
     left: 55px;
     top: 6px;
-    bottom: 5px;
-    right: 305px;
     border-bottom: 4px solid #5e42b0;
 }
 
@@ -673,13 +671,10 @@ a{
     .title_section_line_head2::before{
       font-size: 1.8rem;
     }
-
-    .title_section_line_head1::before{
-      font-size: 1.8rem;
-    }
     
     .title_section_line_head1::before{
       font-size: 1.8rem;
+      width: 17px;
     }
     
     .title_section_line_head2::before{

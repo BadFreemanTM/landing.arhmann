@@ -149,7 +149,7 @@ a{
   text-transform: uppercase;
   color: #e7e7e7;
   margin-bottom: 245px;
-  margin-left: 20px;
+  margin-left: 51px;
   
 
 }
@@ -173,6 +173,7 @@ a{
 
 .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
   color: #c1c1c1;
+  position: relative;
   font-size: 2.3rem;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 700;

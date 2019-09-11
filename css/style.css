@@ -183,9 +183,6 @@ a{
   margin-bottom: 25px;
 }
 
-.title_section_line_head3{
-  
-}
 
 .title_section_block1_line{
   background-color: #fafafa;
@@ -228,7 +225,6 @@ a{
 
 .title_section_line_head1::before{
   content: '01';
-    display: inline-block;
     position: absolute;
     font-size: 1.5rem;
     color: black;
@@ -903,13 +899,20 @@ a{
   .title_section_line_head1, .title_section_line_head2, .title_section_line_head3 {
     font-size: 3.6rem;
   }
-
+ 
   .title_section_line_head1::before, .title_section_line_head2::before, .title_section_line_head3::before{    /* вернуться к этому для правки шрифта */
     font-size: 1.8rem;
-    left: 56px;
-    width: 17px;
+    left:  3px;
     top: 14px;
+  } 
+
+  .title_section_line_head2::before, .title_section_line_head3::before{
+    left: 3px;
     
+  }
+
+  .title_section2_line_head2::before, .title_section2_line_head3::before{
+    top: 64px;
   }
 
   .section_line_p1, .section_line_p2, .section_line_p3{
@@ -924,6 +927,11 @@ a{
   .title_section_line_head, .section_line_p1, .section_line_p2, .section_line_p3, 
   .title_section_line_head1, .title_section_line_head2, .title_section_line_head3 {   /* исправляю ошибку с маргинами и позиционированием */
   margin-left: 0;
+  padding-left: 0px;
+  }
+
+  .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
+    padding-left: 40px;
   }
 
   .title_section_block1_line, .title_section_block2_line, .title_section_block3_line, .title_section_line_head{
@@ -978,6 +986,7 @@ a{
 
   .title_section2_line_head2, .title_section2_line_head3{
     padding-top: 56px;
+    position: relative;
   }
 
 

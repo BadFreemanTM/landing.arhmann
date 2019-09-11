@@ -1098,6 +1098,10 @@ a{
    padding-right: calc(83px + 4%);
  }
 
+ .section3_p_reverse{
+   padding-left: 8.33%;
+ }
+
  .section3_title_h{
    position: static;
 

@@ -676,13 +676,20 @@ a{
     .title_section_line_head1::before{
       font-size: 1.8rem;
       width: 17px;
+      left: 55px;
+      top: 10px;
     }
     
     .title_section_line_head2::before{
       font-size: 1.8rem;
+      font-size: 1.8rem;
+    width: 17px;
+    left: 55px;
+    top: 10px;
     }
     .title_section_line_head3::before{
       font-size: 1.8rem;
+      
     }
 
     .title_h_for_before1::before, .title_h_for_before2::before, .title_h_for_before3::before{

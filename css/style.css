@@ -26,6 +26,7 @@ a{
 
 .header {
   width: 100%;
+  display: block  /* исправляю отступы у img*/
 }
 
 .body {
@@ -1034,11 +1035,6 @@ a{
    display: block;
    
  }
-
- img{
-   display: block}  /* исправляю отступы у img*/
-
- 
 
  .title_h_for_before1, .title_h_for_before2, .title_h_for_before3{
    font-size: 8rem;

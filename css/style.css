@@ -25,14 +25,19 @@ a{
 }
 
 .header {
+  width: 100%;
+}
+
+.body {
     background-image: url("../img/football_767.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-color: #000000;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
+    height: 1080px;
+   
+   
   }
   
   .header::after {
@@ -669,7 +674,7 @@ a{
     
     .title_section_line_head1::before, .title_section_line_head2::before{
       font-size: 1.8rem;
-      width: 20x;
+      width: 20px;
       left: 25px;
       top: 10px;
     }

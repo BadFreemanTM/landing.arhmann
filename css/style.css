@@ -24,7 +24,7 @@ a{
   text-decoration: none;
 }
 
-.header {
+img{
   width: 100%;
   display: block  /* исправляю отступы у img*/
 }
@@ -156,6 +156,8 @@ a{
   color: #e7e7e7;
   margin-bottom: 245px;
   margin-left: 51px;
+  position: relative;
+  display: block;
   
 
 }
@@ -164,18 +166,18 @@ a{
   background-image: url("../img/footballer_192.png");
   content: '';
   background-repeat: no-repeat;
-  top:90px;
-  left: 71px;
-  right:0;
-  bottom: 0;
+  background-position: top center;
+  width: 192px;
+  left: 20px;
+  height: 292px;
+  padding-bottom: 5px;
+  padding-top: 20px;
   position: absolute;
-  background-size: 192px 281px;
+  display: flex;
 
+          
 }
 
-.block_section{
-  position: relative;
-}
 
 .title_section_line_head1, .title_section_line_head2, .title_section_line_head3{
   color: #c1c1c1;
@@ -268,13 +270,15 @@ a{
   background-image: url("../img/basketballer_302.png");
   content: '';
   background-repeat: no-repeat;
-  background-size: 302px 248px;
-  background-position: center center;
-  background-size: cover;
-  width: 302px;
+  background-position: top center;
+  width: 295px;
+  left: -32px;
   height: 248px;
-  top:100px;
-  left:-40px;
+  margin-top: 46px;
+  position: absolute;
+  display: flex;
+  background-size: 91%;
+  
   
 }
 
@@ -801,7 +805,7 @@ a{
 
 }
 
-@media (min-width: 961px), (max-width: 1920){
+@media (min-width: 961px) and (max-width: 1920){
 
   .header {
     background-image: url("../img/football_1920.jpg");

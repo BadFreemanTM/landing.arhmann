@@ -805,7 +805,7 @@ img{
 
 }
 
-@media (min-width: 961px){
+@media (min-width: 961px) and (max-width: 1920){
 
   .header {
     background-image: url("../img/football_1920.jpg");

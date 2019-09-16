@@ -618,13 +618,15 @@ img{
       content: '';
       position: absolute;
       background-repeat: no-repeat;
-      background-size: 497px 699px;
       background-position: center center;
       background-size: cover;
       width: 497px;
-      height: 699px;
-      top:35px;
-      left:-163px;
+      height: 677px;
+      bottom: -621px;
+      left: -175px;
+
+
+     
     }
 
     .block_section2{
@@ -636,13 +638,12 @@ img{
       content: '';
       position: absolute;
       background-repeat: no-repeat;
-      background-size: 436px 565px;
       background-position: center center;
       background-size: cover;
       width: 436px;
       height: 565px;
-      top:-16px;
-      right :0px;
+      right: 0px;
+      bottom: 247px;
 
     }
 
@@ -651,6 +652,7 @@ img{
     }
  
     .title_block_section2{
+      position: relative;
       font-size: 8rem;
     padding-bottom: 0;
     margin-bottom: 0;

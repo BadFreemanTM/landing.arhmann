@@ -37,8 +37,6 @@ img{
     position: relative;
     background-color: #000000;
     width: 100%;
-    
-   
    
   }
   
@@ -624,42 +622,33 @@ img{
       height: 677px;
       bottom: -621px;
       left: -175px;
-
-
      
     }
 
-    .block_section2{
+    .title_block_section2{
       position: relative;
+      font-size: 8rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      padding-left: 49px;
+      padding-top: 38px;
     }
 
-    .block_section2::after{
+    
+    .title_block_section2::after{
       background-image: url("../img/basketballer_436.png");
       content: '';
       position: absolute;
       background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      width: 436px;
-      height: 565px;
-      right: 0px;
-      bottom: 247px;
+      background-size: 98%;
+      width: 432px;
+      height: 487px;
+      left: 336px;
+      bottom: -414px;
 
-    }
-
-    .title_block_section2::after{   /* removed this block after problems with inheritance css from (block title_section_line_head) */
-      display: none;
     }
  
-    .title_block_section2{
-      position: relative;
-      font-size: 8rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-left: 49px;
 
-    padding-top: 38px;
-    }
     
     .title_section2_line_head1, .title_section2_line_head2, .title_section2_line_head3{
       font-size: 3.2rem;

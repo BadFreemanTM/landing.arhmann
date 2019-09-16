@@ -177,7 +177,8 @@ img{
   width: 192px;
   left: 20px;
   height: 292px;
-  padding-bottom: 5px;
+  top: 84px;
+  bottom: -332px;
   padding-top: 20px;
   position: absolute;
   display: flex;
@@ -333,13 +334,12 @@ img{
 
 .title_h_for_before1::after{
   content: '';
-  display: inline-block;
-  position: relative;
-  top: -78px;
-  left: -119px;
-  width: 15px; 
-  height: 4px; 
-  background-color:  #8f7bc8;
+  position: absolute;
+  top: -13px;
+  left: 47px;
+  width: 15px;
+  height: 4px;
+  background-color: #8f7bc8;
   border-radius: 2px;
 }
 
@@ -358,12 +358,11 @@ img{
 
 .title_h_for_before2::after{
   content: '';
-  display: inline-block;
-  position: relative;
-  top: -77px;
-  left: -187px;
-  width: 15px; 
-  height: 4px; 
+  position: absolute;
+  top: -13px;
+  left: 47px;
+  width: 15px;
+  height: 4px;
   background-color: #8f7bc8;
   border-radius: 2px;
 }
@@ -383,12 +382,11 @@ img{
 
 .title_h_for_before3::after{
   content: '';
-  display: inline-block;
-  position: relative;
-  top: -77px;
-  left: -99px;
-  width: 15px; 
-  height: 4px; 
+  position: absolute;
+  top: -13px;
+  left: 47px;
+  width: 15px;
+  height: 4px;
   background-color: #8f7bc8;
   border-radius: 2px;
 }
@@ -809,7 +807,7 @@ img{
 
 }
 
-@media (min-width: 961px), (max-width: 1920){
+@media (min-width: 961px){
 
   .header {
     background-image: url("../img/football_1920.jpg");
